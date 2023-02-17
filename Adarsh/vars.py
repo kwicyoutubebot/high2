@@ -15,7 +15,7 @@ class Var(object):
     name = str(getenv('SESSION_NAME', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    PREMIUM_USERS = set(int(premium) for premium in os.environ.get("PREMIUM_USERS", "5150795047").split()) 
+    PREMIUM_USERS = set(int(premium) for premium in os.environ.get("PREMIUM_USERS", "1056493367 5529620924 5150795047").split()) 
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001608944668'))
     PORT = int(getenv('PORT', 8080))
     WAIT_TIME = int(getenv('WAIT_TIME', 300))
